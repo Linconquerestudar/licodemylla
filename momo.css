@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-color: #9918cc;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 480px; height: 480px; margin: 0px; width: 480px;
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card > .question p {
+    position: none;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-yes, .btn-no {
+    height: 48px;
+    width: 100px;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-yes {
+    background-color: #97fff6;
+}
+
+.btn-no {
+    background-color: #da3131;
+    color: #fff;
+}
+
+.answer {
+    display: none;
+}
+
+.answer > p {
+
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #f5288b;
+    text-shadow: 1px 1px #000;
+}
